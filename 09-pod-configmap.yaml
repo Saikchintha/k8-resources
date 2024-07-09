@@ -8,12 +8,12 @@ spec:
       env:
        - name: course
          valueFrom:
-          confrigMapRef:
+          configMapKeyRef:
            name: sai
-           value: course
+           key: course
        - name: desig
           valueFrom:
-          configMapRef:
-           name: sai
-           value: Designation
+           configMapKeyRef:
+            name: sai
+            key: Designation
            
