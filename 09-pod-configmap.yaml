@@ -11,7 +11,7 @@ spec:
           confrigMapRef:
            name: sai
            value: course
-        - name: desig
+       - name: desig
           valueFrom:
           configMapRef:
            name: sai
