@@ -7,17 +7,16 @@ spec:
     - name: nginx
       image: nginx
       env:
-       - name: course
-         valueFrom:
-          configMapKeyRef:
-           name: sai
-           key: course
-       - name: desig
-         valueFrom:
-          configMapKeyRef:
-          name: sai
-          key: Designation
-           
+        - name: course
+          valueFrom:
+            configMapKeyRef:
+              name: sai
+              key: course
+        - name: desig
+          valueFrom:
+            configMapKeyRef:
+              name: daws78s
+              key: designation
 
 
 # apiVersion: v1
