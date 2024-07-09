@@ -13,10 +13,10 @@ spec:
            name: sai
            key: course
        - name: desig
-          valueFrom:
-           configMapKeyRef:
-            name: sai
-            key: Designation
+         valueFrom:
+          configMapKeyRef:
+          name: sai
+          key: Designation
            
 
 
